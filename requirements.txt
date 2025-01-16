@@ -2,6 +2,8 @@ langchain
 langchain-groq
 python-dotenv
 langchain_community
-pinecone
+pinecone[grpc]
+langchain-pinecone
 pypdf
-sentence-transformers
+langchain-huggingface
+flask
