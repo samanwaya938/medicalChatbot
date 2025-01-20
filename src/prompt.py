@@ -17,3 +17,11 @@ system_prompt = ("""
     Question: {input}
                  """
  )
+
+contextualize_system_prompt = (
+    "Given a chat history and latest user question "
+    "which might reference context in the chat history, "
+    "formulates a standalone question which can be understood "
+    "without the chat history. Do not answer the question, "
+    "just reformulate it if needed otherwise return as it is"
+)
